@@ -2,7 +2,7 @@ import hashlib
 import itertools
 
 caracteres = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
-checksum = "8dff09ec03cc503e7f3814deb2c6bb65"
+checksum = "{YOUR HASH FOR DECRYPT}"
 
 for tamanho in range(1, 10):
     for comb in itertools.product(caracteres, repeat=tamanho): #Gera todas as combinações possíveis de caracteres de acordo com o tamanho
